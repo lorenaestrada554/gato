@@ -20,10 +20,10 @@ interface IGame {
 const InitialState = {
   celdas: ["", "", "", "", "", "", "", "", ""],
   jugadores: [
-    { name: "Pepe", identifier: "X", age: 19 },
-    { name: "Juanito", identifier: "O" ,age: 99}
+    { name: "Lorena", identifier: "X", age: 19 },
+    { name: "Pepe", identifier: "O" ,age: 99}
   ],
-  turno: { name: "Pepe", identifier: "X", age: 19 },
+  turno: { name: "Lorena", identifier: "X", age: 19 },
   gameFinish: false,
   movimientos: 0,
   gameWin: false
